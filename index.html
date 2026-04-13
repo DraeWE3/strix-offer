@@ -38,6 +38,10 @@ a{text-decoration:none;color:inherit}
 }
 
 /* ─── BASE ───────────────────────────────────────────────────── */
+html{
+  width: 100vw;
+  height: auto;
+}
 body{
   background:var(--bg);
   color:var(--bone);
@@ -46,6 +50,9 @@ body{
   line-height:1.65;
   overflow-x:hidden;
   -webkit-font-smoothing:antialiased;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
 }
 
 /* grain */
@@ -651,7 +658,7 @@ footer{
 
 @media(max-width:960px){
   .hero{
-    margin-top: 20vh;
+    margin-top: 15vh;
   }
 
    .hero-row{
